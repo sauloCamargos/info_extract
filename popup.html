@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./src/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="container-wrapper">
+    <div class="types-wrapper">
+      <div class="type-item">
+        <input id="localStorageInput" value="local" type="radio" name="storage" id="">
+        <label for="localStorageInput">Local Storage</label>
+      </div>
+      <div class="type-item">
+        <input id="sessionStorageInput" value="session" type="radio" name="storage" id="">
+        <label for="sessionStorageInput">Session Storage</label>
+      </div>
+    </div>
+    <div class="info-wrapper">
+      <div class="list-items-wrapper">
+        <h3>Key's do storage</h3>
+        <ul id="listItens"><li><input id="key_storage_value_item_0" class="key_storage_value" type="checkbox" value="se:fkey" ]=""><label for="key_storage_value_item_0">se:fkey</label></li><li><input id="key_storage_value_item_1" class="key_storage_value" type="checkbox" value="teste2" ]=""><label for="key_storage_value_item_1">teste2</label></li><li><input id="key_storage_value_item_2" class="key_storage_value" type="checkbox" value="teste1" ]=""><label for="key_storage_value_item_2">teste1</label></li></ul>
+      </div>
+      <pre class="clipboard-preview">
+
+      </pre>
+    </div>
+    <div class="actions-wrapper">
+      <button id="copyData">Copy</button>
+      <button id="pastData">Paste</button>
+    </div>
+  </div>
+
+
+
+  <script src="./popup.js"></script>
+</body>
+
+</html>
